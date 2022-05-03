@@ -1,0 +1,9 @@
+name: sklearn-env
+dependencies:
+    - python=3.8.10
+    - scikit-learn
+    - pip
+    - pandas
+    - xgboost
+    - pip:
+        - azureml-sdk
